@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+
+body{
+    background-color: rgb(29,29,29);
+}
+
+
+       /*  FORMATAÇÃO MENU   */
+
+.menu{
+    background: rgb(35, 35, 35);
+
+    border-bottom: 4px solid rgb(4,158,255);
+    box-shadow: 0px 0px 25px rgb(0, 0, 0);
+    height: 75px;
+}
+
+.menu img{
+    width: 150px;
+    text-align: center;
+    padding: 23px 10px;
+    margin-left: 7%;
+}
+
+#home{color: rgb(4,158,255);}
+#home:hover{background-color: white; color: rgb(39,39,39);}
+
+
+.content-menu{
+    display: inline-block;
+    float: right;
+    font-weight: bold;
+    margin-right: 7%;
+    
+}
+
+.option{
+        padding: 25.4px 15px;
+        font-size: 18px;
+        text-decoration: none;
+        display: inline-block;
+}
+.option:hover{
+    background-color: white;
+    color: rgb(39,39,39);
+    transition: 0.5s;
+}
+
+#select{
+    background-image: linear-gradient(to top, rgb(4,158,255), rgba(0, 0, 0, 0));
+}
+#select:hover{
+    color: rgb(56, 56, 56);
+}
+
+
+
+
+
+                                                        /*FORMATAÇÃO CONTEÚDO*/
+
+div.container-1{
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.685);
+}
+
+div.section{
+    display: inline-block;
+    width: 100%;
+}
+
+div.image-texto img{
+    max-width: 540px;
+    float: right;
+}
+
+.texto{
+    padding: 2%;
+    width: 55%;
+    float: left;
+    height: 560px;
+    overflow: auto;
+
+}
+
+ul{
+    padding: 25px;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+    @media (max-width: 1680px){
+        .texto{
+            width: 99%;
+            float: none;
+            padding-left: 10px;
+
+        }
+        .image-texto img{
+            display: none;
+        }
+    }
+
+
+/*FORMATAÇÃO SCROLLBAR*/
+.texto::-webkit-scrollbar {width: 12px; }
+.texto::-webkit-scrollbar-track {background: rgba(255, 255, 255, 0); }
+.texto::-webkit-scrollbar-thumb {background-color: rgba(255, 255, 255, 0.233); border-radius: 20px; }
+  
+
+
+
+
+                                                /*FORMATAÇÃO TEXTO*/
+
+.texto p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+        /*VANTAGENS*/
+.title{
+    text-align: center;
+    margin-top: 75px;}
+
+
+
+
+
+                                            /*FORMATAÇÃO SECTION BLOCOS*/
+
+div.section-2{
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+
+div.blocos{
+    display:flex;
+    padding: 30px 0;
+
+}
+
+
+
+
+                                                /*FORMATAÇÃO BOX*/
+div.box{
+    background-color: rgba(56, 56, 56, 0.445);
+    border-radius: 30px;
+    padding: 10px;
+    margin: 30px 10px;
+    width: 30%;
+    text-align: center;
+    box-shadow: 1px 3px 7px black;
+}
+
+
+
+                                            /*FORMATAÇÃO IMAGE-BOX*/
+div.image-box{
+    margin: 30px 0;
+    transition: all 0.5s;
+    padding-right: 10px
+}
+div.image-box img{
+    width: 30%;
+}
+div.image-box:hover{
+    transform: translateY(-10px);
+    transition: all 0.5s;
+}
+
+.icones img{
+    float: left;
+    width: 10%;
+    margin-left: -4px;
+}
+
+
+
+
+                                            /*FORMATAÇÃO TEXT-BOX*/
+
+div.text-box p{
+    text-shadow: 1px 2px 2px black;
+    font-size: 18px
+}
+
+.text-box h1{
+    padding: 15px 0px;
+}
+
+
+
+                                            /*FORMATAÇÃO FOOTER*/
+
+footer{
+    background-color: rgb(4,158,255);
+}
+
+div.footer{
+    
+    height: 100px;
+    text-align: center;
+}
+div.footer img{
+    width: 250px;
+    position: relative;
+    bottom: 32px;
+}
+
+.copyright span{
+    padding:5px;
+    color: black;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.fonte{
+    text-align: center;
+}

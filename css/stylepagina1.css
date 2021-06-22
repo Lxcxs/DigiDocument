@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+
+body{
+    background:
+linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+background-color: #131313;
+background-size: 20px 20px;
+}
+  
+
+                                               /*  FORMATAÇÃO MENU   */
+
+
+
+.container-box{
+    margin: 10% 0;
+}
+
+.menu{
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.74);
+    text-align: center;
+    border-bottom: rgb(4,158,255) 5px solid;
+
+}
+
+.content-menu{
+    display: inline-block;
+    float: right;
+    margin-right: 5%;
+    margin-top: -5px;
+}
+
+.option{color: white;
+        padding: 5px 15px;
+        border-radius: 15px;
+        text-shadow: 1px 1px 2px black;
+        font-size: 18px;
+        text-decoration: none;
+        display: inline-block;
+        transition: 0.2s;
+}
+.option:hover{
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.247);
+    background-color: rgb(255, 255, 255);
+    color:rgb(78, 78, 78);
+    transition: 0.5s;
+    transform: translateY(3px);
+    text-shadow: 0px 0px 0px;
+}
+
+.main{
+    display:block;
+    text-align:center ;
+    margin: 300px 0px;
+}
+
+.menu img{
+    width: 200px;
+}
+
+
+
+
+
+                                                    /*FORAMTAÇÃO CONTEÚDO*/
+
+
+
+
+
+
+
+h1{
+    text-shadow: 1px 1px 2px black;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.box h1{
+    text-align: center;
+}
+
+div.container-box{
+    display: flex;
+    text-align: center;
+}
+
+
+div.box{
+    width: 20%;
+    margin: 30px auto;
+    max-height: 650px;
+    transition: all 0.2s;
+}
+div.box:hover{
+    transition: all 0.5s;
+    transform: translateY(-10px);
+}
+
+
+
+
+img{ width: 100%;
+    height: auto;
+    border-radius: 30px;
+}
+
+
+.botao{
+    background-color: rgb(4,158,255);
+}
+.botao{
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+.botao p{
+    font-size: 32px;
+}
+
+
+
